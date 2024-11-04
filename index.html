@@ -9,6 +9,7 @@
             font-family: 'Custom Blackboard';
             src: url(fonts/CfBlackboardPersonalRegular-AKPg.ttf)
         }
+        
         body{
             background-color: #002f20;
             color: white;
@@ -19,19 +20,16 @@
 </head>
 <body>
     <h1>Bart Detention</h1>
-    <img src="/home/giang/projects/web3ngay/BartDetention.jpeg" alt="">
+    <img src="BartDetention.jpeg" alt="">
     <hr />
 
     <div id="output"></div>
     <script>
         const outputDiv = document.getElementById("output")
         const paragraphs = [
-            "I will not copy and paste code.",
-            "I will use Camel Case when writing class names.",
-            "I will use lower Camel Case when writing function names.",
             "I will use lower Camel Case when writing variable names."
         ]
-        for (let i=0; i<5; i++) {
+        for (let i=0; i<99; i++) {
             paragraphs.forEach(paragraph => {
                 const p = document.createElement("p");
                 p.textContent = paragraph;
